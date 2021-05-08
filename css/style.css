@@ -11,3 +11,14 @@ table {
 .formulario .field .button.is-link{
   margin: 20px 0px;
 }
+
+
+.hero-body{
+  text-align: center;
+}
+
+
+.message.is-danger{
+  width: 60%;
+  margin: 20px auto;
+}

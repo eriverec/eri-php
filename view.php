@@ -16,6 +16,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM products WHERE login_id=" . $_SES
 
 
 <?php  include_once("tpl/head.php"); ?>
+<?php include_once("tpl/nav.php"); ?>
 
 
 <div class="tabs is-centered">
