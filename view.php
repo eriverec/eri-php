@@ -20,7 +20,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM products WHERE login_id=" . $_SES
 
 <div class="tabs is-centered">
   <ul>
-    <li><a href="add.html">Add</a></li>
+    <li><a href="client-add.php">Add</a></li>
   </ul>
 </div>
 

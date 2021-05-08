@@ -1,3 +1,13 @@
 table {
   margin: auto;
 }
+.formulario .field{
+  margin: auto;
+  width: 60%;
+
+}
+
+
+.formulario .field .button.is-link{
+  margin: 20px 0px;
+}
