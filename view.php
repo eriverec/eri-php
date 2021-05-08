@@ -17,12 +17,18 @@ $result = mysqli_query($mysqli, "SELECT * FROM products WHERE login_id=" . $_SES
 
 <?php  include_once("tpl/head.php"); ?>
 
-<a href="index.php">Home</a> | <a href="add.html">Agregar</a> | <a href="logout.php">Logout</a>
-<br /><br />
 
-<table width='80%' border=0>
+<div class="tabs is-centered">
+  <ul>
+    <li><a href="add.html">Add</a></li>
+  </ul>
+</div>
+
+<center><h2 class="title is-2">Productos</h2></center> 
+
+<table class="table table is-bordered table is-striped" width='80%' >
   <tr bgcolor='#CCCCCC'>
-    <td>codigo</td>
+    <td>Codigo</td>
     <td>Description</td>
     <td>Precio</td>
     <td>Update</td>
